@@ -1,0 +1,114 @@
+.login-box{
+  margin: auto;
+
+    width: 26rem;
+    background-color: white;
+    border-radius: 10px;
+
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.signup-box{
+  margin: auto;
+  width: 30rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+@media screen and (min-device-width: 445px) and (max-device-width: 599px){
+  .login-box{
+    width: 22rem;
+  }
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 444px){
+  .login-box{
+    width: 320px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-device-width: 371px) and (max-device-width: 499px){
+  .signup-box{
+    width: 22rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 370px){
+  .signup-box{
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+.logo{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Questrial', sans-serif;
+}
+
+.password {
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+    color: #727272;
+  }
+  .password__input {
+    display: block;
+    text-transform: none;
+    font-weight: 400;
+    color: #212121;
+  }
+  .password__input:focus, .password__input:active {
+    border-color: #00bcd4;
+    outline: 0;
+  }
+  .password__show {
+    cursor: pointer;
+    position: absolute;
+    
+    top: 3px;
+    right: 5px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 1.4em;
+  }
+
+  .signup-gender{
+    background-color: white;
+    font-size: 20px;
+  }
+
+  @media screen and (min-device-width: 0px) and (max-device-width: 370px){
+    .signup-gender{
+      font-size: 15px;
+    }
+  }
